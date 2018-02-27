@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="ISO-8859-1">
+    <title>Create Product</title>
+    <link rel=stylesheet href="style/main.css">
+</head>
+<body>
+	<h3>Create Product</h3>
+	<form method="post" action="CreateProductServlet">
+	    <label id="lblId" for="id">ID: </label>
+		<input name="id" class="inpText" runat="server"/> 
+		
+		<label id="lblName" for="name">Name: </label>
+		<input name="name" class="inpText" runat="server" />
+		
+		<label id="lblDescription" for="description">Description: </label> 
+		<input name="description" class="inpText" runat="server" />
+		
+		<label id="lblPrice" for="price">Price: </label>
+		<input name="price" class="inpText" runat="server" />
+		 
+		<input type="submit" value="create" class="inpSubmit" runat="server" />
+	</form>
+</body>
+</html>
